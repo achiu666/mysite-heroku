@@ -9,7 +9,7 @@ import plotly.graph_objs as go
 import numpy as np
 
 def index(request):
-	name = "邱彥翔"
+	name = "Pro"
 	lotto = [random.randint(1, 42) for i in range(6)]
 	special = lotto[0]
 	lotto = lotto[1:6]
